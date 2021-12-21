@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    background: url(Imagen/color.jpg) #CCC no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.title_1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px ;
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#description{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.12rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin:20px 300px;
+
+}
+
+form{
+    padding: 20px ;
+}
+ 
+.buttom{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: chartreuse;
+    border:0;
+    height: 20px;
+}
